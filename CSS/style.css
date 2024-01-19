@@ -35,18 +35,20 @@ section{
 
 }
 
+
 img{
     width: 100%;
 }
 
 body{
     color: var(--text-color);
+    background-color:#eed9c4;
 }
 
 .container{
     max-width: 1068px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
 }
 
 header{
@@ -95,6 +97,7 @@ header.shadow #search-icon{
 .navbar{
     display: flex;
     column-gap: 2rem;
+    text-decoration: none;
 }
 
 .navbar a{
@@ -102,6 +105,7 @@ header.shadow #search-icon{
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
+    text-decoration: none;
 
 }
 
@@ -114,7 +118,7 @@ header.shadow #search-icon{
 #search-icon{
     font-size: 24px;
     cursor: pointer;
-    color: var(--bg-color);
+    color: black;
 }
 
 .search-box{
@@ -122,9 +126,9 @@ header.shadow #search-icon{
     top: 110%;
     right: 0;
     left: 0;
-    background: var(--bg-color);
+    background: white;
     box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
-    border: 1px solid  var(--main-color);
+    border: 1px solid  var(#eed9c4);
     border-radius: 0.5rem;
     clip-path: circle(0% at 100% 0%);
 }
@@ -144,15 +148,15 @@ header.shadow #search-icon{
 }
 
 .home{
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
     width: 100%;
     min-height: 640px;
     display: flex;
-    align-items: center;
-    background: url(/img/Background-home.png);
+    align-items:center;
+    background: url(/img/beige-abstract-wallpaper-background-image\ \(1\).jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center left;
 }
 
@@ -180,6 +184,7 @@ header.shadow #search-icon{
     background: var(--main-color);
     color: var(--bg-color);
     font-weight: 400;
+    text-decoration: none;
 }
 
 .btn:hover{
@@ -202,7 +207,7 @@ header.shadow #search-icon{
 }
 
 
-.cars-container{
+.clothes-container{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -210,7 +215,7 @@ header.shadow #search-icon{
     
 }
 
-.cars-container .box{
+.clothes-container .box{
     flex: 1 1 17rem;
     position: relative;
     height: 200px;
@@ -218,20 +223,20 @@ header.shadow #search-icon{
     overflow: hidden;
 }
 
-.cars-container .box img{
+.clothes-container .box img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     overflow: hidden;
 }
 
-.cars-container .box img:hover{
+.clothes-container .box img:hover{
     transform: scale(1.1);
     transition: 0.5s;
 
 }
 
-.cars-container .box h2{
+.clothes-container .box h2{
     position: absolute;
     bottom: 1rem;
     left: 1rem;
@@ -243,7 +248,7 @@ header.shadow #search-icon{
 
 }
 
-.cars-container  .box:hover h2{
+.clothes-container  .box:hover h2{
     background: var(--main-color);
     color: var(--bg-color);
 }
@@ -395,9 +400,9 @@ header.shadow #search-icon{
 }
 
 .footer{
-    background: var(--text-color);
+    background: #D9B99B;
     color: #f6f6f6;
-    border-top: 2px solid var(--main-color);
+    border-top: 2px solid #D9B99B;
 }
 
 .footer-container{
@@ -444,20 +449,21 @@ header.shadow #search-icon{
 
 
 .footer-box p:hover{
-    color: var(--main-color);
+    color:var(--main-color);
 }
 
 
 .footer-box a,
 .footer-box p{
-    color: #818181;
+    color:black;
     margin-bottom: 10px;
+    text-decoration: none;
 
 }
 
 
 .footer-box a:hover{
-    color: var(--main-color);
+    color:var(--main-color);
 }
 
 
@@ -465,7 +471,7 @@ header.shadow #search-icon{
     padding: 20px;
     text-align: center;
     color: var(--bg-color);
-    background: var(--text-color);
+    background: #af957d;
 }
 
 .copyright p:hover{
