@@ -209,7 +209,7 @@ header.shadow #search-icon{
 .clothes-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
     margin-top: 2rem;
     
 }
