@@ -343,7 +343,7 @@ header.shadow #search-icon{
     color: var(--text-color);
 }
 
-.accesories-container .box .details:hover{
+.accessories-container .box .details:hover{
     color: var(--main-color);
     text-decoration: underline;
 }
