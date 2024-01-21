@@ -1,0 +1,255 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Variables*/
+
+:root{
+    --main-color:#af957d;
+    --text-color:#020102;
+    --bg-color:#eed9c4;
+}
+/* custom scroll Bar*/
+html::-webkit-scrollbar{
+    width: 0.5rem;
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    border-radius: 5rem;
+    background: var(--text-color);
+}
+section{
+    padding: 4rem 0 2rem;
+
+}
+
+
+img{
+    width: 100%;
+}
+
+body{
+    color: var(--text-color);
+    background-color:#eed9c4;
+}
+
+.container{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header.shadow{
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px 4px rgb(15 54 55 / 10%);
+    transition: 0.5s ease;
+}
+
+header.shadow #search-icon{
+    color: var(--text-color);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--text-color);
+    display: none;
+}
+
+.logo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+
+.logo span{
+    color: var(--main-color);
+}
+
+.navbar{
+    display:flex;
+    column-gap: 2rem;
+    text-decoration: none;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.navbar a:hover,
+.navbar .active{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+#search-icon{
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+}
+
+.search-box{
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    background:var(--bg-color);
+    box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
+    border: 1px solid  var(--main-color);
+    border-radius: 0.5rem;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.search-box.active{
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.4s;
+}
+.search-box input{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+
+}
+
+.home{
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items:center;
+    background: url(/img/beige-abstract-wallpaper-background-image\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center left;
+}
+
+.home-text{
+    padding-left: 130px;
+}
+
+.home-text h1{
+    font-size: 2.4rem;
+}
+
+
+.home-text span{
+    color: var(--main-color);
+}
+
+.home-text p{
+    font-size: 0.938rem;
+    font-weight: 300;
+    margin: 0.5rem 0 1.2rem;
+}
+
+.btn{
+    padding: 10px 22px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: black;
+
+}
+
+
+.clothes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.clothes-container .box{
+    flex: 1 1 17rem;
+    position: relative;
+    height: 550px;
+    width: 550px;
+    border-radius: 0rem;
+    overflow: hidden;
+}
+
+.clothes-container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.clothes-container .box img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.clothes-container .box h2{
+    position: absolute;
+    bottom: 1rem;
+    left: 14rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: var(--bg-color);
+    padding: 8px;
+    border-radius: 0.5rem;
+
+}
+
+.clothes-container  .box:hover h2{
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0rem;
+    margin-top: 5%;
+    height: 250px;
+}
+
+.info img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
