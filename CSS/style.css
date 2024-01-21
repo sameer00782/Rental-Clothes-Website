@@ -614,7 +614,7 @@ header.shadow #search-icon{
     transition: 0.4s;
   }
   .bar:hover{
-    background: #fff;
+    background:#fff;
   }
   
   input[name="r"]{
