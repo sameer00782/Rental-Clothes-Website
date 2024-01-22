@@ -237,6 +237,7 @@ header.shadow #search-icon{
 .clothes-container  .box:hover h2{
     background: var(--main-color);
     color: var(--bg-color);
+    cursor: pointer;
 }
 
 .info{
