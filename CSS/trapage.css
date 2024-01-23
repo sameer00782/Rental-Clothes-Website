@@ -97,6 +97,7 @@ header.shadow #search-icon{
     display:flex;
     column-gap: 2rem;
     text-decoration: none;
+    margin-left: 5%;
 }
 
 .navbar a{
@@ -118,7 +119,30 @@ header.shadow #search-icon{
     font-size: 24px;
     cursor: pointer;
     color: black;
+    margin-left: 4%;
 }
+
+#cart-icon{
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+  }
+  .account-info{
+    text-decoration: none;
+    background: var(--main-color);
+    border-radius: 14px;
+    padding: 3px 25px;
+    margin-left: 4%;
+  }
+  
+  .account-info .login{
+    color: #fff;
+  }
+  
+  .account-info :hover{
+    color: #000;
+    text-decoration: underline;
+  }
 
 .search-box{
     position: absolute;
