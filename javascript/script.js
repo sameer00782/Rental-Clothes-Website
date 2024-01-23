@@ -54,13 +54,13 @@ function resetActiveImg(){
 }
 
 
- /*cart-page*/
+ 
 
  const product =[
     {
-        image: 'image/gg-1.jpg',
-        title: 'Z Flip Foldable Mobile',
-        price: 120
+        image: '/img/pain.jpg',
+        title: 'Black Zari Brocade Kurta Set',
+        price: 3500
     },
     {
         image: 'image/hh-2.jpg',
@@ -104,26 +104,26 @@ function displaycart(c){
     if(categories.length==0){
         document.getElementById("root").innerHTML="Your cart is empty";
 
-        document.getElementById("totalA").innerHTML = "$ 00.00";
-        document.getElementById("totalB").innerHTML = "$ 00.00";
+        document.getElementById("totalA").innerHTML = "₹ 00.00";
+        document.getElementById("totalB").innerHTML = "₹ 00.00";
     }
     else{
         document.getElementById("root").innerHTML = categories.map((items)=>{
             let {image, title, price} = items;
             total = total+price;
-            document.getElementById("totalA").innerHTML = "$ "+ total +".00";
+            document.getElementById("totalA").innerHTML = "₹ "+ total +".00";
 
             if(c==50){
-                document.getElementById("totalB").innerHTML="$ "+(total-c)+".00";
+                document.getElementById("totalB").innerHTML="₹ "+(total-c)+".00";
             }else{
-                document.getElementById("totalB").innerHTML="$ "+total+ ".00";
+                document.getElementById("totalB").innerHTML="₹ "+total+ ".00";
             }
 
             return(
                 `<tr>
-                    <td width="150"><div class="img-box"><img class="img" src=${image}></div></td>
-                    <td width="360"><p style='font-size:15px;'>${title}</p></td>
-                    <td width="150"><h2 style='font-size:15px; color:black; '>$ ${price}.00</h2></td>
+                    <td width="550"><div class="img-box"><img class="img" src=${image}></div></td>
+                    <td width="960"><p style='font-size:15px;'>${title}</p></td>
+                    <td width="150"><h2 style='font-size:15px; color:black; '>₹ ${price}.00</h2></td>
                     <td width="70">`+"<i class='fa-solid fa-trash' onclick='delElement("+ (j++) +")'></i></td>"+
                 `</tr>`
             );

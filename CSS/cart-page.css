@@ -275,8 +275,9 @@ button:hover, .checkout:hover{
     justify-content: center;
 }
 .img{
-    max-width: 43px;
-    max-height: 43px;
+    max-width: 50px;
+    max-height: 80px;
+    object-fit: cover;
     border-radius: 50%;
 }
 .fa-trash{
