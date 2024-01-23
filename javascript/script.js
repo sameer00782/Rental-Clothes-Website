@@ -58,24 +58,24 @@ function resetActiveImg(){
 
  const product =[
     {
-        image: '/img/pain.jpg',
+        image: '/img/cart1.jpeg',
         title: 'Black Zari Brocade Kurta Set',
         price: 3500
     },
     {
-        image: 'image/hh-2.jpg',
-        title: 'Air Pods Pro',
-        price: 150
+        image: '/img/cart2.jpeg',
+        title: 'Red Embroided Ethnic Dress',
+        price: 2500
     },
     {
-        image: 'image/ee-3.jpg',
-        title: '250 DSLR Camera',
-        price: 230
+        image: '/img/cart3.jpeg',
+        title: 'Zero Point Collar Set',
+        price: 2300
     },
     {
-        image: 'image/aa-1.jpg',
-        title: 'Headphones',
-        price: 100
+        image: '/img/cart4.jpeg',
+        title: 'Jacquard Kurta Set',
+        price: 2100
     },
 ]
 
