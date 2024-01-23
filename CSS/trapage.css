@@ -493,3 +493,15 @@ header.shadow #search-icon{
 .none{
     color: #eed9c4;
 }
+
+.button{
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.button:hover{
+    background: black;
+}
