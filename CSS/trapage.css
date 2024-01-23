@@ -395,6 +395,7 @@ header.shadow #search-icon{
 .products-container .box img:hover{
     transform: scale(1.1);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .products-container .box h3{
