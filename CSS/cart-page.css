@@ -275,10 +275,14 @@ button:hover, .checkout:hover{
     justify-content: center;
 }
 .img{
-    max-width: 74px;
-    max-height: 74px;
+    max-width: 73px;
+    max-height: 73px;
     object-fit: contain;
     border-radius: 50%;
+}
+.img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .fa-trash{
     color: #af957d;
