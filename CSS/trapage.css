@@ -11,6 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 /*Variables*/
 
 :root{
@@ -18,7 +19,6 @@
     --text-color:#020102;
     --bg-color:#eed9c4;
 }
-
 /* custom scroll Bar*/
 html::-webkit-scrollbar{
     width: 0.5rem;
@@ -33,9 +33,10 @@ section{
     padding: 4rem 0 2rem;
 
 }
+
+
 img{
     width: 100%;
-    display: block;
 }
 
 body{
@@ -145,16 +146,30 @@ header.shadow #search-icon{
 
 }
 
+.home{
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items:center;
+    background: url(/beige-abstract-wallpaper-background-image\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center left;
+}
 
 .main-wrapper{
-    min-height: 100vh;
-    background-color: var(--bg-color);
+    max-height: 100vh;
     display: flex;
+    margin-left: 14%;
     align-items: center;
     justify-content: center;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
+    min-height: 65px;
+    margin-right: 50%;
     padding: 0 1rem;
     margin: 0 auto;
 }
@@ -177,6 +192,7 @@ header.shadow #search-icon{
 .img-container img{
     width: 280px;
     margin: 0 auto;
+    display: flex;
     object-fit: contain;
     overflow: hidden;
 }
@@ -347,6 +363,8 @@ header.shadow #search-icon{
     border:1px solid black;
 }
 
+
+
 .products-container{
     display: flex;
     flex-wrap: wrap;
@@ -419,8 +437,6 @@ header.shadow #search-icon{
     background:black;
     text-decoration: none;
 }
-
-
 
 .heading{
     text-align: center;
