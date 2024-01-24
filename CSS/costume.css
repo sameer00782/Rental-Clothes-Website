@@ -359,6 +359,8 @@ section{
 }
 .navbar li{
     color: #fff0db;
+    font-size: 0px;
+
 }
 
 .navbar a{
