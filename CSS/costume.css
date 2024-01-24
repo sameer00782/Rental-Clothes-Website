@@ -444,8 +444,9 @@ section{
 
 .view-more .view:hover{
     background: #020102;
+    cursor: pointer;
 }
 
 .none{
-    color: #eed9c4;
+    color: #fff0db;
 }
