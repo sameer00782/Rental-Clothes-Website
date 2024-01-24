@@ -127,22 +127,19 @@ header.shadow #search-icon{
     cursor: pointer;
     color: black;
   }
-  .account-info{
-    text-decoration: none;
-    background: var(--main-color);
-    border-radius: 14px;
-    padding: 3px 25px;
-    margin-left: 4%;
-  }
   
-  .account-info .login{
-    color: #fff;
-  }
-  
-  .account-info :hover{
-    color: #000;
-    text-decoration: underline;
-  }
+  .button-login{
+    padding: 4px 24px;
+  border: 2px solid #af957d;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #020102;
+}
+
+.button-login:hover{
+    background: none;
+}
   
 .search-box{
     position: absolute;
