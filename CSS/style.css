@@ -491,6 +491,11 @@ header.shadow #search-icon{
     margin-bottom: 1rem;
 }
 
+.accessories-container .box img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .accessories-container .box h2{
     font-size: 1.1rem;
     font-weight: 600;
