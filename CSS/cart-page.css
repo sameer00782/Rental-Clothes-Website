@@ -135,13 +135,17 @@ header.shadow #search-icon{
   margin-left: 4%;
 }
 
-.account-info .login{
-  color: #fff;
+.button-login{
+    padding: 4px 24px;
+  border: 2px solid #af957d;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #020102;
 }
 
-.account-info :hover{
-  color: #000;
-  text-decoration: underline;
+.button-login:hover{
+    background: none;
 }
 
 .search-box{
