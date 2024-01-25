@@ -431,24 +431,47 @@ section{
   }
 
 
-  .view-more .view{
-    text-align: center;
-    text-decoration: none;
-    margin-left: 45%;
-    font-size: 18px;
-    background: #af957d;
-    border: 0.5px black;
+.view-btn{
+    border-radius: 4px;
+    background-color: #af957d;
+    border: none;
     border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    margin-left: 45%;
+    font-size: 20px;
     padding: 16px;
-    bottom: 1.8rem;
-    color: #f6f6f6;
-}
-
-.view-more .view:hover{
-    background: #020102;
+    width: 150px;
+    transition: all 0.5s;
     cursor: pointer;
-}
-
-.none{
-    color: #fff0db;
-}
+    margin: 19px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  .view-btn{
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 45%;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .view-btn:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .view-btn:hover{
+    padding-right: 24px;
+    background: #020102;
+    padding-left:8px;
+  }
+  
+  .view-btn:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
