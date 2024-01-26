@@ -450,6 +450,7 @@ section{
   
   .view-btn{
     cursor: pointer;
+    margin-top: -5%;
     display: inline-block;
     margin-left: 45%;
     position: relative;
@@ -460,7 +461,7 @@ section{
     content: '»';
     position: absolute;
     opacity: 0;  
-    top: 12px;
+    top: 13px;
     right: -20px;
     transition: 0.5s;
   }
