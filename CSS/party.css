@@ -405,7 +405,7 @@ header.shadow #search-icon{
     cursor: pointer;
     display: inline-block;
     margin-left: 45%;
-    margin-top: -5%;
+    margin-top: 2%;
     position: relative;
     transition: 0.5s;
   }
