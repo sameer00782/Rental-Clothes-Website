@@ -409,7 +409,7 @@ header.shadow #search-icon{
 .products-container .box img{
     width: 100%;
     height: 380px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     margin-bottom: 3rem;
 }
