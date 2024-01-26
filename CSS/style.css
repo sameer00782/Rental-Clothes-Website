@@ -499,7 +499,7 @@ color: #020102;
 }
 
 .clothes-container  .box:hover h2{
-  background:var(--bg-color);
+  background:var(--main-color);
   color: var(--text-color);
 }
 
@@ -670,9 +670,10 @@ cursor: pointer;
 }
 
 .footer{
-  background: var(--bg-color);
+  background: whitesmoke;
   color: black;
-  border-top: 2px solid var(--bg-color);
+  border-top: 2px solid whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.4);
 }
 
 .footer-container{
@@ -700,13 +701,13 @@ cursor: pointer;
 
 .social a{
   font-size: 24px;
-  color:var(--bg-color);
+  color:var(--text-color);
   margin-right: 1rem;
 }
 
 
 .social a:hover{
-  color: var(--main-color);
+  color: var(--text-color);
 }
 
 
@@ -719,13 +720,14 @@ cursor: pointer;
 
 
 .footer-box p:hover{
-  color:var(--main-color);
+  color:var(--text-color);
+  cursor: pointer;
 }
 
 
 .footer-box a,
 .footer-box p{
-  color:var(--main-color);
+  color:var(--text-color);
   margin-bottom: 10px;
   text-decoration: none;
   cursor: default;
@@ -734,6 +736,7 @@ cursor: pointer;
 
 .footer-box a:hover{
   color:var(--text-color);
+  cursor: pointer;
 }
 
 
@@ -741,7 +744,7 @@ cursor: pointer;
   padding: 20px;
   text-align: center;
   color: var(--text-color);
-  background: var(--main-color);
+  background: #ededed;
 }
 
 .copyright p:hover{
