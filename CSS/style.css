@@ -499,7 +499,7 @@ color: #020102;
 }
 
 .clothes-container  .box:hover h2{
-  background:var(--main-color);
+  background:#ededed;
   color: var(--text-color);
 }
 

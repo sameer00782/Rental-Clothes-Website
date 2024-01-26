@@ -72,7 +72,7 @@ section{
 }
 
 .btn:hover{
-    background:#faf9f6;
+    background:#ededed;
 }
 .heading{
     font-size: 26px;
@@ -412,7 +412,7 @@ header.shadow #search-icon{
     content: '»';
     position: absolute;
     opacity: 0;  
-    top: 14px;
+    top: 12px;
     right: -20px;
     transition: 0.5s;
   }
