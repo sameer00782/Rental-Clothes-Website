@@ -316,6 +316,7 @@ header.shadow #search-icon{
     flex: 1 1 17rem;
     position: relative;
     padding: 20px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     background: #f6f6f6;
@@ -362,6 +363,7 @@ header.shadow #search-icon{
 .products-container .box .details{
     display: flex;
     align-items: center;
+    margin-right: 26%;
     position: absolute;
     bottom: 1.8rem;
     right: 1rem;
@@ -369,7 +371,7 @@ header.shadow #search-icon{
     color:var(--text-color);
     background-color: white;
     border:1px solid #f6f6f6;
-    border-radius: 7px;
+    border-radius: 12px;
     padding: 5px;
 }
 
