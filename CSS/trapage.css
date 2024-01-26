@@ -189,7 +189,7 @@ header.shadow #search-icon{
     justify-content: center;
 }
 .container{
-    max-width: 1000px;
+    max-width: 1100px;
     min-height: 60px;
     margin-right: 50%;
     padding: 0 1rem;
@@ -399,6 +399,7 @@ header.shadow #search-icon{
     flex: 1 1 17rem;
     position: relative;
     padding: 20px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     background: #f6f6f6;
@@ -445,6 +446,7 @@ header.shadow #search-icon{
 .products-container .box .details{
     display: flex;
     align-items: center;
+    margin-right: 26%;
     position: absolute;
     bottom: 1.8rem;
     right: 1rem;
@@ -452,12 +454,12 @@ header.shadow #search-icon{
     color:var(--text-color);
     background-color: white;
     border:1px solid #f6f6f6;
-    border-radius: 7px;
+    border-radius: 15px;
     padding: 5px;
 }
 
 .products-container .box .details:hover{
-    background:var(--main-color);
+    background:#ededed;
     text-decoration: none;
 }
 
@@ -506,7 +508,6 @@ header.shadow #search-icon{
     cursor: pointer;
     display: inline-block;
     margin-left: 45%;
-    margin-top: -5%;
     position: relative;
     transition: 0.5s;
   }
