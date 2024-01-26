@@ -235,10 +235,10 @@ header.shadow #search-icon{
     justify-content: center;
 }
 .active{
-    border-color: black!important;
+    border-color: var(--main-color)!important;
 }
 .hover-container div:hover{
-    border-color: black;
+    border-color: var(--main-color);
 }
 .hover-container div img{
     width: 50px;
@@ -457,7 +457,7 @@ header.shadow #search-icon{
 }
 
 .products-container .box .details:hover{
-    background:var(--bg-color);
+    background:var(--main-color);
     text-decoration: none;
 }
 
@@ -482,7 +482,7 @@ header.shadow #search-icon{
     text-align: center;
 }
 .button:hover{
-    background: var(--bg-color);
+    background: var(--main-color);
 }
 
 .view-btn{
@@ -521,7 +521,7 @@ header.shadow #search-icon{
   
   .view-btn:hover{
     padding-right: 24px;
-    background: var(--bg-color);
+    background: var(--main-color);
     padding-left:8px;
   }
   
