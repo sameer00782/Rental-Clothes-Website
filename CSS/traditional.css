@@ -64,16 +64,15 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: var(--main-color);
-    color:var(--white-color);
+    background: white;
+    color:var(--text-color);
     font-size: 1.8rem;
     padding:.9rem 3.5rem;
     cursor: pointer;
 }
 
 .btn:hover{
-    background:black;
-    color:#fff;
+    background:var(--bg-color);
 }
 
 .category .box-container{
@@ -160,7 +159,7 @@ img{
 
 body{
     color: var(--text-color);
-    background-color:#fff0db;
+    background-color:white;
 }
 
 .container{
@@ -179,7 +178,7 @@ header{
 }
 
 header.shadow{
-    background-color: var(--bg-color);
+    background-color: white;
     box-shadow: 4px 4px 4px rgb(15 54 55 / 10%);
     transition: 0.5s ease;
 }
@@ -253,9 +252,9 @@ header.shadow #search-icon{
     top: 110%;
     right: 0;
     left: 0;
-    background:var(--bg-color);
+    background:white;
     box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
-    border: 1px solid  var(--main-color);
+    border: 1px solid  var(--text-color);
     border-radius: 0.5rem;
     clip-path: circle(0% at 100% 0%);
 }
@@ -275,13 +274,13 @@ header.shadow #search-icon{
 }
 
 .home{
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
     width: 100%;
     min-height: 640px;
     display: flex;
     align-items:center;
-    background-color: #fff0db;
+    background-color:  #f6f6f6;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center left;
@@ -304,7 +303,8 @@ header.shadow #search-icon{
     flex-wrap: wrap;
     border-radius: 0rem;
     margin-top: 10%;
-    height: 220px;
+    margin-bottom: -10%;
+    height: 250px;
 }
 
 .info img{
