@@ -670,9 +670,9 @@ cursor: pointer;
 }
 
 .footer{
-  background: #fff0db;
+  background: var(--bg-color);
   color: black;
-  border-top: 2px solid #fff0db;
+  border-top: 2px solid var(--bg-color);
 }
 
 .footer-container{
@@ -741,7 +741,7 @@ cursor: pointer;
   padding: 20px;
   text-align: center;
   color: var(--text-color);
-  background: var(--bg-color);
+  background: var(--main-color);
 }
 
 .copyright p:hover{
