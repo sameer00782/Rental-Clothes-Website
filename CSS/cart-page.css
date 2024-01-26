@@ -41,7 +41,7 @@ img{
 
 body{
     color: var(--text-color);
-    background-color:#eed9c4;
+    background-color:#f6f6f6;
 }
 
 .container{
@@ -60,7 +60,7 @@ header{
 }
 
 header.shadow{
-    background-color: var(--bg-color);
+    background-color: white;
     box-shadow: 4px 4px 4px rgb(15 54 55 / 10%);
     transition: 0.5s ease;
 }
@@ -148,9 +148,9 @@ header.shadow #search-icon{
     top: 110%;
     right: 0;
     left: 0;
-    background:var(--bg-color);
+    background:white;
     box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
-    border: 1px solid  var(--main-color);
+    border: 1px solid  var(--text-color);
     border-radius: 0.5rem;
     clip-path: circle(0% at 100% 0%);
 }
@@ -170,13 +170,13 @@ header.shadow #search-icon{
 }
 
 .home{
-    max-width: 1400px;
-    margin: auto;
+    max-width: 1600px;
+    margin:auto;
     width: 100%;
     min-height: 640px;
     display: flex;
     align-items:center;
-    background: url(/beige-abstract-wallpaper-background-image\ \(1\).jpg);
+    background-color: #f6f6f6;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -194,13 +194,14 @@ header.shadow #search-icon{
 .container{
     display: flex;
     margin: -0.5rem 100px;
-    
-    
+    margin-left: auto;
+    margin-right: auto;    
 }
+
 .cart{
     width: 65%;
-    margin-top: 3%;
-    background-color: #f2f2f2;
+    margin-top: 5%;
+    background-color: #ededed;
 }
 .top{
     display: flex;
@@ -222,16 +223,16 @@ table{
     padding-left: 7px;
 }
 .summary{
-    background-color: #f2f2f2;
+    background-color: #ededed;
     width: 35%;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 20px;
 }
 .detail{
     margin: 10px 0;
     padding: 0 10px;
     align-items: center;
-    background-color: #af957d;
+    background-color: var(--main-color);
     color: white;
     height: 40px;
     display: flex;
@@ -257,17 +258,18 @@ button{
 }
 .checkout{
     width: 100%;
-    background-color: #af957d;
+    background-color: var(--main-color);
+    color: white;
 }
 button:hover, .checkout:hover{
-    background-color: black;
+    background-color:var(--text-color);
 }
 .img-box{
     margin: 5px;
     width: 80px;
     height: 80px;
     border-radius: 50px;
-    border:  2px solid #af957d;
+    border:  2px solid var(--main-color);
     background-color: white;
     display: flex;
     align-items: center;
