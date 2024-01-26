@@ -367,7 +367,7 @@ header.shadow #search-icon{
     position: absolute;
     bottom: 1.8rem;
     right: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color:var(--text-color);
     background-color: white;
     border:1px solid #f6f6f6;
@@ -376,7 +376,7 @@ header.shadow #search-icon{
 }
 
 .products-container .box .details:hover{
-    background:var(--main-color);
+    background:#ededed;
     text-decoration: none;
 }
 
