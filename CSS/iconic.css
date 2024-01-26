@@ -267,7 +267,7 @@ header.shadow #search-icon{
 
 
 .footer{
-    background: whitesmoke;
+    background: #ededed;
     color: black;
     border-top: 2px solid #ededed;
     box-shadow: rgba(0, 0, 0, 0.4);
@@ -341,7 +341,7 @@ header.shadow #search-icon{
     padding: 20px;
     text-align: center;
     color: var(--text-color);
-    background: #ededed;
+    background: #faf9f6;
   }
   
   .copyright p:hover{

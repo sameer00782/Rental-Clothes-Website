@@ -670,7 +670,7 @@ cursor: pointer;
 }
 
 .footer{
-  background: whitesmoke;
+  background: #ededed;
   color: black;
   border-top: 2px solid whitesmoke;
   box-shadow: rgba(0, 0, 0, 0.4);
@@ -744,7 +744,7 @@ cursor: pointer;
   padding: 20px;
   text-align: center;
   color: var(--text-color);
-  background: #ededed;
+  background: #faf9f6;
 }
 
 .copyright p:hover{
