@@ -302,7 +302,7 @@ header.shadow #search-icon{
     display: flex;
     flex-wrap: wrap;
     border-radius: 0rem;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: -10%;
     height: 250px;
 }
