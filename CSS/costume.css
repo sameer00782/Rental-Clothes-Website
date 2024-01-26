@@ -25,7 +25,7 @@ html::-webkit-scrollbar-thumb{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #fff0db;
+    background-color: #f6f6f6;
 
 }
 
@@ -76,7 +76,7 @@ img{
 
 /* product section */
 .products{
-    background: #eed9c4;
+    background: #f6f6f6;
     padding: 3.2rem 0;
 }
 .products .text-light{
@@ -313,7 +313,7 @@ header{
 }
 
 header.shadow{
-    background-color:#eed9c4;
+    background-color:white;
     box-shadow: 4px 4px 4px rgb(15 54 55 / 10%);
     transition: 0.5s ease;
 }
@@ -398,9 +398,9 @@ section{
     top: 110%;
     right: 0;
     left: 0;
-    background:#eed9c4;
+    background:white;
     box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
-    border: 1px solid  #af957d;
+    border: 1px solid  black;
     border-radius: 0.5rem;
     clip-path: circle(0% at 100% 0%);
 }
@@ -433,10 +433,10 @@ section{
 
 .view-btn{
     border-radius: 4px;
-    background-color: #af957d;
+    background-color:white;
     border: none;
     border-radius: 25px;
-    color: #fff;
+    color:black;
     text-align: center;
     margin-left: 45%;
     font-size: 20px;
@@ -467,7 +467,7 @@ section{
   
   .view-btn:hover{
     padding-right: 24px;
-    background: #020102;
+    background: #eed9c4;
     padding-left:8px;
   }
   
