@@ -456,15 +456,15 @@ input[name="r"]{
 .clothes-container{
   display: flex;
   flex-wrap: wrap;
-  max-width: 1400px;
-  gap: 1.5rem;
+  max-width: 1150px;
+  gap: 2rem;
   margin-top: 2rem;
 }
 
 .clothes-container .box{
   flex: 1 1 17rem;
   position: relative;
-  height: 220px;
+  height: 270px;
   box-shadow: rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   overflow: hidden;
