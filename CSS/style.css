@@ -162,11 +162,10 @@ header.shadow #search-icon{
     min-height: 640px;
     display: flex;
     align-items:center;
-    background: url(/img/beige-abstract-wallpaper-background-image\ \(1\).jpg);
+    background: url(/img/bg-website.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center left;
-    border-bottom:.1rem solid rgba(0, 0, 0, 0.3);
 }
 
 .button {
@@ -235,7 +234,7 @@ header.shadow #search-icon{
   display: flex;
   height: 100vh;
   width: 100%;
-  background-image: url("/img/beige-abstract-wallpaper-background-image\ \(1\).jpg");
+  background-image: url("/img/bg-website.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center left;
