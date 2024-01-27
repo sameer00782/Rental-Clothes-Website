@@ -38,7 +38,7 @@ const product =[
         price: 3500
     },
     {
-        image: '/img/cart2.jpeg',
+        image: '/img/cart5.jpg',
         title: 'Red Embroided Ethnic Dress',
         price: 2500
     },
