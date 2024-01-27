@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#eee;
+    background:#ffffff;
 }
 
 section{
@@ -179,7 +179,7 @@ img{
 
 body{
     color: black;
-    background-color:white;
+    background-color:#ffffff;
 }
 
 .container{
@@ -319,7 +319,7 @@ header.shadow #search-icon{
     height: 400px;
     display: flex;
     flex-direction: column;
-    background: #f6f6f6;
+    background: #ededed;
     border-radius: 0.5rem;
 
 }

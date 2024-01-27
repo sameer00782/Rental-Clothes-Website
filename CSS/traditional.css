@@ -210,7 +210,7 @@ header.shadow #search-icon{
     height: 500px;
     display: flex;
     flex-direction: column;
-    background: #f6f6f6;
+    background: #ededed;
     border-radius: 0.5rem;
 
 }

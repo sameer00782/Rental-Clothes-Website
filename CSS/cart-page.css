@@ -41,7 +41,7 @@ img{
 
 body{
     color: var(--text-color);
-    background-color:#f6f6f6;
+    background-color:#ffffff;
 }
 
 .container{
@@ -176,7 +176,7 @@ header.shadow #search-icon{
     min-height: 640px;
     display: flex;
     align-items:center;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
