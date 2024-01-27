@@ -363,11 +363,11 @@ header.shadow #search-icon{
 .products-container .box .details{
     display: flex;
     align-items: center;
-    margin-right: 26%;
+    margin-right: 28%;
     position: absolute;
     bottom: 1.8rem;
     right: 1rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color:var(--text-color);
     background-color: white;
     border:1px solid #f6f6f6;
