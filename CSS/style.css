@@ -635,6 +635,7 @@ cursor: pointer;
 
 .blog-container .box:hover{
   background: #ededed;
+  cursor: pointer;
 }
 
 .blog-container .box span{
