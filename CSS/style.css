@@ -569,6 +569,7 @@ color: #020102;
   width: 300px;
   align-items: center;
   height: 300px;
+  margin-left: 4%;
   object-fit: cover;
   object-position: center;
   margin-bottom: 1rem;
