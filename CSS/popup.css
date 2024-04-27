@@ -195,169 +195,70 @@ header.shadow #search-icon{
     transform: scale(0.98);
   }
 
-  .checkout-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:25px;
-    min-height: 100vh;
-    background: linear-gradient(90deg, #ededed 60%, #ededed 40.1%);
-  }
-  
-  .checkout-container form{
-    padding:20px;
-    width:700px;
+
+.pop-container{
+
+        width: 500px;
+        background:white;
+        box-shadow: 0 0 20px 5px rgba(0,0,0,0.15);
+        border-radius: 6px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)scale(1);
+        text-align: center;
+        padding: 0 30px 30px;
+        color: #333;
+    }
+
+    .pop-container img{
+        width: 100px;
+        margin-top: -50px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px white;
+    }
+
+    .pop-container h1{
+        font-size: 38px;
+        font-weight: 500;
+        margin: 30px 0 10px;
+        background: #fff;
+    }
+
+    .pop-container button{
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px 0;
+        background: #af957d;
+        color: #fff;
+        border: 0;
+        outline: none;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 5px 5px white;
+    }
+
+    a1{
+        background: #d4b895;
+        color: #fff;
+        box-shadow: 0 0 20px 5px rgba(0,0,0,0.15);
+        font-size: 16px;
+        padding: 12px 50px;
+        margin: 20px 0;
+        border: 0;
+        outline: #333;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }
+    a1:hover{
+        border: 2px solid black;
+        color: black;
+        transform: translateX(-5px);
+    }
+p{
+    font-size: 18px;
     background: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-  }
-  
-  .checkout-container form .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap:15px;
-  }
-  
-  .checkout-container form .row .col{
-    flex:1 1 250px;
-  }
-  
-  .checkout-container form .row .col .title{
-    font-size: 20px;
-    color:#333;
-    padding-bottom: 5px;
-    text-transform: uppercase;
-  }
-  
-  .checkout-container form .row .col .inputBox{
-    margin:15px 0;
-  }
-  
-  .checkout-container form .row .col .inputBox span{
-    margin-bottom: 10px;
-    display: block;
-  }
-  
-  .checkout-container form .row .col .inputBox input{
-    width: 100%;
-    border:1px solid #ccc;
-    padding:10px 15px;
-    font-size: 15px;
-    text-transform: none;
-  }
-  
-  .checkout-container form .row .col .inputBox input:focus{
-    border:1px solid #000;
-  }
-  
-  .checkout-container form .row .col .flex{
-    display: flex;
-    gap:15px;
-  }
-  
-  .checkout-container form .row .col .flex .inputBox{
-    margin-top: 5px;
-  }
-  
-  .checkout-container form .row .col .inputBox img{
-    height: 34px;
-    margin-top: 5px;
-    filter: drop-shadow(0 0 1px #000);
-  }
-  
-
-  .confirm{
-    width: 100%;
-    padding:12px;
-    font-size: 17px;
-    background:#af957d ;
-    color:#fff;
-    margin-top: 5px;
-    cursor: pointer;
-    border-color: #af957d;
-    border-bottom: #af957d;
-    border-right: #af957d;
-    border-radius: 25px;
-  }
-
-  .footer{
-    background: #ededed;
-    color: black;
-    border-top: 2px solid whitesmoke;
-    box-shadow: rgba(0, 0, 0, 0.4);
-  }
-  
-  .footer-container{
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-  
-  .footer-container .logo{
-    color: black;
-    margin-bottom: 1rem;
-  
-  }
-  
-  .footer-container .footer-box{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  .social{
-    display: flex;
-    align-items: center;
-  }
-  
-  .social a{
-    font-size: 24px;
-    color:var(--text-color);
-    margin-right: 1rem;
-  }
-  
-  
-  .social a:hover{
-    color: var(--text-color);
-  }
-  
-  
-  .footer-box h3{
-    font-size: 1.1rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-  
-  }
-  
-  
-  .footer-box p:hover{
-    color:var(--text-color);
-    cursor: pointer;
-  }
-  
-  
-  .footer-box a,
-  .footer-box p{
-    color:var(--text-color);
-    margin-bottom: 10px;
-    text-decoration: none;
-    cursor: default;
-  }
-  
-  
-  .footer-box a:hover{
-    color:var(--text-color);
-    cursor: pointer;
-  }
-  
-  
-  .copyright{
-    padding: 20px;
-    text-align: center;
-    color: var(--text-color);
-    background: #faf9f6;
-  }
-  
-  .copyright p:hover{
-    color: var(--text-color);
-  }
-  
+}
