@@ -261,9 +261,7 @@ button{
     background-color: var(--main-color);
     color: white;
 }
-button:hover, .checkout:hover{
-    background-color:var(--text-color);
-}
+
 .img-box{
     margin: 5px;
     width: 80px;
