@@ -36,22 +36,7 @@ const product =[
         image: '/img/cart1.jpeg',
         title: 'Black Zari Brocade Kurta Set',
         price: 3500
-    },
-    {
-        image: '/img/cart5.jpg',
-        title: 'Red Embroided Ethnic Dress',
-        price: 2500
-    },
-    {
-        image: '/img/cart3.jpeg',
-        title: 'Zero Point Collar Set',
-        price: 2300
-    },
-    {
-        image: '/img/cart4.jpeg',
-        title: 'Jacquard Kurta Set',
-        price: 2100
-    },
+    }
 ]
 
 const categories = [...new Set(product.map((item)=>
