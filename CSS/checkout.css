@@ -207,6 +207,7 @@ header.shadow #search-icon{
   .checkout-container form{
     padding:20px;
     width:700px;
+    margin-top: 3%;
     background: #fff;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
   }
@@ -265,19 +266,22 @@ header.shadow #search-icon{
   }
   
 
-  .confirm{
-    width: 100%;
-    padding:12px;
-    font-size: 17px;
-    background:#af957d ;
-    color:#fff;
-    margin-top: 5px;
-    cursor: pointer;
-    border-color: #af957d;
-    border-bottom: #af957d;
-    border-right: #af957d;
-    border-radius: 35px;
-  }
+  
+
+a1{
+  width: 400%;
+  padding:12px;
+  font-size: 17px;
+  text-decoration: none;
+  background:#af957d ;
+  color:#fff;
+  margin-top: 2%;
+  cursor: pointer;
+  border-color: #af957d;
+  text-align: center;
+  margin-left: 39%;
+  border-radius: 25px;
+}
 
   .footer{
     background: #ededed;
