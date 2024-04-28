@@ -239,26 +239,24 @@ header.shadow #search-icon{
         box-shadow: 0 5px 5px white;
     }
 
-    a1{
-        background: #d4b895;
-        color: #fff;
-        box-shadow: 0 0 20px 5px rgba(0,0,0,0.15);
-        font-size: 16px;
-        padding: 12px 50px;
-        margin: 20px 0;
-        border: 0;
-        outline: #333;
-        border-radius: 5px;
-        cursor: pointer;
-        text-decoration: none;
-        
-    }
-    a1:hover{
-        border: 2px solid black;
-        color: black;
-        transform: translateX(-5px);
-    }
-p{
+    
+   
+P{
+    background: #d4b895;
+    color: #fff;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.15);
+    font-size: 16px;
+    padding: 12px 50px;
+    width: 30%;
+    margin-left: 35%;
+    border: 0;
+    outline: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p1{
     font-size: 18px;
     background: #fff;
 }
