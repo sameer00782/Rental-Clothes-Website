@@ -266,23 +266,31 @@ header.shadow #search-icon{
   }
   
 
-  
-
 a1{
-  width: 400%;
+  width: 100%;
   padding:12px;
   font-size: 17px;
   text-decoration: none;
   background:#af957d ;
   color:#fff;
-  margin-top: 2%;
   cursor: pointer;
   border-color: #af957d;
   text-align: center;
   margin-left: 39%;
   border-radius: 25px;
 }
-
+p{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  text-decoration: none;
+  background:#af957d ;
+  color:#fff;
+  cursor: pointer;
+  border-color: #af957d;
+  text-align: center;
+  border-radius: 25px;
+}
   .footer{
     background: #ededed;
     color: black;
@@ -333,14 +341,14 @@ a1{
   }
   
   
-  .footer-box p:hover{
+  .footer-box p1:hover{
     color:var(--text-color);
     cursor: pointer;
   }
   
   
   .footer-box a,
-  .footer-box p{
+  .footer-box p1{
     color:var(--text-color);
     margin-bottom: 10px;
     text-decoration: none;
@@ -361,7 +369,7 @@ a1{
     background: #faf9f6;
   }
   
-  .copyright p:hover{
+  .copyright p1:hover{
     color: var(--text-color);
   }
   
