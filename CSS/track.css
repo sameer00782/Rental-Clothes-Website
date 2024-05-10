@@ -171,19 +171,6 @@ header.shadow #search-icon{
 
 }
 
-.home{
-    max-width: 1300px;
-    margin: auto;
-    width: 100%;
-    min-height: 640px;
-    display: flex;
-    align-items:center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center left;
-    border-bottom:.1rem solid rgba(0, 0, 0, 0.3);
-}
-
 .button {
     padding: 6px 24px;
     border: 2px solid #af957d;
@@ -195,77 +182,4 @@ header.shadow #search-icon{
     transform: scale(0.98);
   }
 
-
-.pop-container{
-
-        width: 500px;
-        background:white;
-        box-shadow: 0 0 20px 5px rgba(0,0,0,0.15);
-        border-radius: 6px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%)scale(1);
-        text-align: center;
-        padding: 0 30px 30px;
-        color: #333;
-    }
-
-    .pop-container img{
-        width: 100px;
-        margin-top: -50px;
-        border-radius: 50%;
-        box-shadow: 0 2px 5px white;
-    }
-
-    .pop-container h1{
-        font-size: 38px;
-        font-weight: 500;
-        margin: 30px 0 10px;
-        background: #fff;
-    }
-
-    .pop-container button{
-        width: 100%;
-        margin-top: 50px;
-        padding: 10px 0;
-        background: #af957d;
-        color: #fff;
-        border: 0;
-        outline: none;
-        font-size: 18px;
-        border-radius: 4px;
-        cursor: pointer;
-        box-shadow: 0 5px 5px white;
-    }
-
-    
-   
-P{
-    background: #d4b895;
-    color: #fff;
-    box-shadow: 0 0 20px 5px rgba(0,0,0,0.15);
-    font-size: 16px;
-    padding: 12px 50px;
-    width: 30%;
-    margin-left: 35%;
-    border: 0;
-    outline: #333;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-p1{
-    font-size: 18px;
-    background: #fff;
-    text-align: center;
-    display: inline;
-}
-
-.button{
-    font-size: 18px;
-    background: #fff;
-    text-align: center;
-    display: inline;
-}
+  
